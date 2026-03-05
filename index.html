@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+    
+</head>
+<body>
+    <div id="bo">
+        <h1>Expense Tracke</h1>
+    <div id="Cointain">
+
+            <form onsubmit="handel(event)"id="enety">
+            <p>Description</p>
+            <input type="text" id="des"  class="inp"name="Description"></input>
+            <p>Amount (Rs):</p>
+            <input type="number" id="am" class="inp" name="Amount"></input>
+            <p>Category</p>
+            <select id="op" name="Category">
+                <option value="1">Housing</option>
+                <option value="2">Utilities </option>
+                <option value="3">Groceries/Food</option>
+                <option value="4">Transportation</option>
+            </select>
+            <br>
+            <button id ="btm">Add Expense</button>
+             
+        </form>
+    
+    </div>
+    </div>
+    <div class="dis" id="tdis">
+        <p>Date</p>
+        <p> Descripition</p>
+        <p> Amount</p>
+        <p> Category</p>
+        <p  id="total"> Edit</p></div>
+    <div id="display" class="dis" >
+    
+    </div>
+
+    <script src ="index.js"></script>
+</body>
+</html>

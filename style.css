@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4c2c69;
+    
+    
+    
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    margin-bottom: 13px;
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#bo{
+    width: 360px;
+    height: 320px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ffffff;
+      margin-bottom: 100px;
+      margin-top: 50px;
+
+}
+
+#Cointain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 320px;
+    text-align: left;
+    
+    border-radius: 40px;
+    background-color: #ffffff;
+  
+
+}
+
+.dis {
+    display :grid;
+    grid-template-columns : repeat(5,200px); 
+    text-align: center;
+    
+
+    background-color: #ffffff;
+    
+    
+}
+.inp{
+    width: 200px;
+    height:20px;
+    border: 2px solid gray;
+}
+#btm{
+    margin-top: 18px;
+    width: 200px;
+    height: 30px;
+    background-color: hsl(178, 50%, 48%); 
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 30px;
+
+}
+
+#btm:hover{
+     
+    background-color: hsl(178, 70%, 58%); 
+
+}
+
+.inp:focus{
+    border-color: #1581BF;
+     outline: none;
+}
+
+#op{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#op:focus{
+    border-color: #1581BF;
+     outline: none;
+}
+
+.bt{
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(7, 95%, 63%);
+    color: #ffffff;
+    font-size:  17px ;
+}
+
+.bt:hover{
+   background-color: hsl(0, 100%, 63%); 
+}

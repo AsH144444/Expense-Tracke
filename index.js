@@ -88,11 +88,11 @@ function show() {
 }
 
 function deleteItem(index) {
-    item.splice(index, 1); // remove 1 item at that index
+    item.splice(index, 1); 
 
-    localStorage.setItem("item", JSON.stringify(item)); // update storage
+    localStorage.setItem("item", JSON.stringify(item)); 
 
-    show(); // refresh display
+    show();
     tot();
 }
 
@@ -107,4 +107,5 @@ function tot() {
     const totals =`Total is RS ${total.toFixed(2)}`;
     document.getElementById('total').innerText= totals;
     
+
 }
